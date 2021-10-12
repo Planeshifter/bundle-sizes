@@ -1,0 +1,1 @@
+global.absBy = require( '@stdlib/math/strided/special/abs-by' );
