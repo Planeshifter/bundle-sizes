@@ -1,0 +1,22 @@
+{
+  "name": "bundle-sizes",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "minify": "esbuild abs.js --bundle --minify --legal-comments=none > bundle_only_abs.js && esbuild abs_and_abs2.js --bundle --minify --legal-comments=none > bundle_abs_and_abs2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planeshifter/bundle-sizes.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/bundle-sizes/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/bundle-sizes#readme",
+  "dependencies": {
+    "@stdlib/math": "github:stdlib-js/math",
+    "esbuild": "^0.13.4"
+  }
+}
