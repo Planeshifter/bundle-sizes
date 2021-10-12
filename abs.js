@@ -1,1 +1,1 @@
-global.abs = require( '@stdlib/math/strided/special/abs' );
+global.abs = require( '@stdlib/math/strided/special/abs/lib/abs.js' );
